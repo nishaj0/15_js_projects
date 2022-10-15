@@ -1,0 +1,51 @@
+*{
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.container{
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+.container h1{
+   font-size: 50px;
+}
+.container span{
+   font-size: 70px;
+}
+.container .btns{
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.container button{
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.container .btns .dec-btn:hover{
+   background-color: rgb(255, 0, 0);
+}
+.container .btns .res-btn:hover{
+   background-color: rgb(0, 132, 255);
+}
+.container .btns .inc-btn:hover{
+   background-color: rgb(0, 255, 21);
+}
