@@ -1,0 +1,102 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+   list-style: none;
+   text-decoration: none;
+}
+/**------------------NAV---------------------*/
+nav{
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.151);
+   width: 100%;
+   height: 10vh;
+   background-color: rgb(241, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav h1{
+   font-size: 40px;
+   font-weight: 100;
+   
+   color: rgb(0, 185, 185);
+}
+nav .nav-center{
+   width: 75vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.nav-center ul{
+   font-size: 30px;
+   width: 20vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.nav-center a{
+   color: rgb(10, 10, 10);
+}
+
+main{
+   height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+   background-color: rgb(15, 29, 41);
+   width: 500px;
+   height: 200px;
+   border-radius: 20px;
+   color: rgb(225, 240, 255);
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.container .color{
+   color: rgb(62, 75, 255);
+}
+.container button{
+   width: 80px;
+   height: 40px;  
+   color: white;
+   background-color: black;
+   border-color: rgb(189, 200, 233);
+   border-radius: 8px;
+   font-size: 30px;
+   transition: ease 0.3s;
+   cursor: pointer;
+}
+.container button:hover{
+   color: black;
+   background-color: white;
+   border-color: black;
+
+}
+
+@media (max-width: 768px) {
+   
+   nav h1{
+      font-size: 30px;
+   }
+   .nav-center ul{
+      font-size: 20px;
+   }
+   .container{
+      width: 300px;
+      height: 150px;
+      font-size: 15px;
+   }
+   .container button{
+      width: 60px;
+      height: 30px;
+      font-size: 20px;
+   }
+}
