@@ -20,4 +20,4 @@ function getRandomNum(){
    rand = Math.floor(Math.random() * hex.length);
    // console.log(rand)
    return rand;
-}
+} 
